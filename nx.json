@@ -5,7 +5,7 @@
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/workspace"
+    "defaultCollection": "@nrwl/expo"
   },
   "implicitDependencies": {
     "package.json": {
@@ -18,12 +18,7 @@
     "default": {
       "runner": "@nrwl/nx-cloud",
       "options": {
-        "cacheableOperations": [
-          "build",
-          "lint",
-          "test",
-          "e2e"
-        ],
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
         "accessToken": "ZTBkNDU5MWMtOWQ0OS00ZGMzLTk3YjktMmI0ZGQxYmZjMTA2fHJlYWQtd3JpdGU="
       }
     }
@@ -35,5 +30,6 @@
         "projects": "dependencies"
       }
     ]
-  }
+  },
+  "defaultProject": "demo"
 }
