@@ -7,3 +7,4 @@ This repo contains a demo of running a Next.js app through Expo and Nx.
 nx web demo
 ```
 
+This idea is originally from [this issue](https://github.com/nrwl/nx/issues/10177).
